@@ -7,27 +7,25 @@ import React from "react";
 // THEN I receive a notification if I have entered an invalid email address
 
 export default function Contact() {
+  
   return (
     <div>
       Contact
       <form>
-      <div>
-          <label >Name:</label>
+        <div>
+          <label>Name:</label>
           <input placeholder="Please Enter Name" />
         </div>
         <div>
-          <label >Email:</label>
+          <label>Email:</label>
           <input placeholder="Please Enter Email" />
         </div>
         <div>
-          <label >Request:</label>
+          <label>Request:</label>
           <input placeholder="Please Enter Request" />
         </div>
-        <button>
-          Submit
-        </button>
+        <button>Submit</button>
       </form>
-
       <div>
         <h5>if you need to conatact me please email me at: </h5>
       </div>
