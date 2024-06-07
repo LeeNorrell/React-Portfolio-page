@@ -6,7 +6,7 @@ export default function Resume() {
     <div>
       Resume
       <a href ={leesresume} download> Link Text </a>  
-
+{/* list of your proficiencies */}
       <div>
         <h2></h2>
       </div>

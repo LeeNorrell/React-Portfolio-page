@@ -1,33 +1,66 @@
 import React from "react";
 
-// THEN I see a contact form with fields for a name, an email address, and a message
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required
-// WHEN I enter text into the email address field
-// THEN I receive a notification if I have entered an invalid email address
+const styles = {
+  page: {
+    paddingLeft: '10vw'
+  },
+  header: {
+    fontSize: '36px',
+    marginTop: '2vw',
+    color: 'red',
+  },
+  labelname: {
+    fontSize: '24px',
+    color: 'red',
+  },
+  labelbox: {
+    display: 'flex',
+    flexDirection: 'column',
+    flexWrap: 'wrap',
+    width: '40vw',
+    marginTop: '20px'
+    
+  },
+  box: {
+    fontSize: '13px',
+    fontWeight: 'bolder',
+    background: 'lavender',
+    marginTop: '6px'
+  },
+  submit: {
+    marginTop: '10px',
+    color: 'red',
+    background: 'black',
+  },
+
+}
 
 export default function Contact() {
   
   return (
-    <div>
+    <div style={styles.page}>
+      <h1 style={styles.header}>
       Contact
-      <form>
-        <div>
-          <label>Name:</label>
-          <input placeholder="Please Enter Name" />
+      </h1>
+      <form className="mt-5">
+        <div style={styles.labelbox}>
+          <label style={styles.labelname}>Name:</label>
+          <input style={styles.box} placeholder="Please Enter Name" />
         </div>
-        <div>
-          <label>Email:</label>
-          <input placeholder="Please Enter Email" />
+        <div style={styles.labelbox}>
+          <label style={styles.labelname}>Email:</label>
+          <input style={styles.box} placeholder="Please Enter Email" />
         </div>
-        <div>
-          <label>Request:</label>
-          <input placeholder="Please Enter Request" />
+        <div style={styles.labelbox}>
+          <label style={styles.labelname}>Request:</label>
+          {/* <input style={styles.bigbox} placeholder="Please Enter Request" /> */}
+          <textarea style={styles.box} placeholder="Please Enter Request" ></textarea>
         </div>
-        <button>Submit</button>
+        <button style={styles.submit}>Submit</button>
       </form>
-      <div>
+      <div  className="mt-5 pt-2 ps-3 border w-50">
         <h5>if you need to conatact me please email me at: </h5>
+        <p>Leenorrell22@gmail.com</p>
       </div>
     </div>
   );

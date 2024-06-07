@@ -3,26 +3,29 @@ import profile from "../Images/profile.png";
 
 const styles = {
   creator: {
-    marginTop: '5vw',
-    marginLeft: '38vw',
-    marginBottom: '5vw',
     width: '20vw'
   },
   text: {
     fontSize: '20px',
-    display: 'flex',
-    flexWrap: 'wrap',
-    padding: '20px',
-    marginLeft: '24px'
+    padding: '20px',   
   },
   textbox: {
-    padding: '20px'
+    padding: '20px',
+    display:'flex', 
+    flexWrap: 'wrap', 
+    flexDirection: 'column'
+  }, 
+  container: {
+    display: 'flex', 
+    flexDirection: 'column', 
+    alignItems: 'center', 
+    padding: "1%"
   }
 }
 
 export default function AboutMe() {
   return (
-    <div>
+    <div style={styles.container}>
       <img style={styles.creator} src={profile} alt="profile pic" />
       <div style={styles.textbox}>
       <p style={styles.text}>

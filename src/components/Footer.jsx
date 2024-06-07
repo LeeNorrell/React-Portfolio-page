@@ -1,31 +1,46 @@
-import React from 'react'
+import React from "react";
 import { FaGithubSquare } from "react-icons/fa";
 import { ImStackoverflow } from "react-icons/im";
 
 const styles = {
   foot: {
-    display: 'flex',
-    justifyContent: 'center',
-    fontSize: '6vw',
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column",
   },
   icon: {
-    margin: '4px',
-    color: 'crimson'
+    color: "crimson",
+    fontSize: "4rem",
   },
   icon2: {
-    margin: '4px',
-    color: 'deepskyblue'
+    color: "deepskyblue",
+    fontSize: "4rem",
+  },
+  copy: {
+    fontSize: '10px',
+
   }
-}
+};
 
 export default function Footer() {
   return (
     <footer style={styles.foot}>
-        
-            <a style={styles.icon} href="https://github.com/LeeNorrell"><FaGithubSquare /></a>
-      
-            <a style={styles.icon2} href="https://stackoverflow.com/users/24171456/lee-norrell"><ImStackoverflow /></a>
-      
+      <div>
+        <a style={styles.icon} href="https://github.com/LeeNorrell">
+          <FaGithubSquare />
+        </a>
+
+        <a
+          style={styles.icon2}
+          href="https://stackoverflow.com/users/24171456/lee-norrell"
+        >
+          <ImStackoverflow />
+        </a>
+      </div>
+      <div>
+        <p style={styles.copy}>Copyright Lee Norrell</p>
+      </div>
     </footer>
-  )
+  );
 }

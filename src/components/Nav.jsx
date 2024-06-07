@@ -10,17 +10,7 @@ const styles = {
     fontSize: 50,
     color: 'white',
   },
-  nav: {
-    fontSize: '30px',
-    marginLeft: '8vw',
-    display: 'flex',
-    alignItems: 'center',
-  },
-  link: {
-    color: 'white',
-   marginLeft: '60px',
-   border: '2px black'
-  },
+ 
 }
 
 export default function Navigation() {
@@ -33,9 +23,9 @@ export default function Navigation() {
         <Navbar.Brand style={styles.name} >Lee Norrell</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" style={styles.nav}>
+          <Nav className="ms-auto" >
             <div style={styles.linkborder}>
-            <Link style={styles.link}
+            <Link 
               to="/"
               className={currentPage === "/" ? "nav-link active" : "nav-link"}
               >
@@ -43,7 +33,7 @@ export default function Navigation() {
             </Link>
             </div>
             <div>
-            <Link style={styles.link}
+            <Link
               to="/contact"
               className={
                 currentPage === "/contact" ? "nav-link active" : "nav-link"
@@ -53,7 +43,7 @@ export default function Navigation() {
             </Link>
             </div>
             <div>
-            <Link style={styles.link}
+            <Link 
               to="/portfolio"
               className={
                 currentPage === "/portfolio" ? "nav-link active" : "nav-link"
@@ -63,7 +53,7 @@ export default function Navigation() {
             </Link>
             </div>
             <div>
-            <Link style={styles.link}
+            <Link 
               to="/resume"
               className={
                 currentPage === "/resume" ? "nav-link active" : "nav-link"

@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function Project({data}) {
   return (
-    <p>{data.name}</p>  
+    <div>
+      <p>{data.name}</p>   
+      <p>{data.name}</p>   
+    </div>
 )
 }

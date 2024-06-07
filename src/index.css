@@ -1,0 +1,16 @@
+body {
+  background-color: beige;
+}
+
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom right,#2c4053, yellow) !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+.active{
+    color:red !important;
+}
