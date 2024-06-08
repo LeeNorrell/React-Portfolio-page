@@ -1,10 +1,10 @@
 body {
-  background-color: beige;
+  background-color: rgb(83, 97, 104);
 }
 
 .navbar,
 .navbar-default {
-    background-image: linear-gradient(to bottom right,#2c4053, yellow) !important;
+    background-image: linear-gradient(to bottom right,#2c4053, rgb(38, 83, 121)) !important;
 }
 
 .nav-link {
@@ -16,6 +16,7 @@ body {
 }
 
 .card {
-  width: 30rem;
-  height: 15rem;
+  height: 90%;
+
 }
+

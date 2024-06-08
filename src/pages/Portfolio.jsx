@@ -10,30 +10,40 @@ const styles = {
   bit: {
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'center',
-    flexDirection: 'column'
+    justifyContent: 'space-evenly',
+
   }
 }
 const data = [
   {
     id: 1,
-    name: 'project one',
-    image: {Image}
+    name:<a href="https://github.com/LeeNorrell/ORM-E-commerce">ORM E-commerce Project</a> ,
+    image: Image,
   },
   {
     id: 2,
-    name: 'project one',
-    image: {Image}
+    name: <a href="https://github.com/LeeNorrell/Employee-tracker">Employee Tracker Project</a>,
+    image: Image,
   },
   {
     id: 3,
-    name: 'project one',
-    image: {Image}
+    name: <a href="https://github.com/LeeNorrell/Note-Taker">Note Taker Project</a>,
+    image: Image,
   },
   {
     id: 4,
-    name: 'project one',
-    image: {Image}
+    name: <a href="https://github.com/LeeNorrell/Make-A-ReadMe">Making a ReadMe Project</a>,
+    image: Image,
+  },
+  {
+    id: 5,
+    name: <a href="https://github.com/lazybeast904/Chismosa-s-podcast">Collaboration Project</a>,
+    image: Image,
+  },
+  {
+    id: 6,
+    name:  <a href="https://github.com/LeeNorrell/NoSql-social-api">NoSql Project</a>,
+    image: Image,
   },
 ]
 

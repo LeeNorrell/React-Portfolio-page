@@ -53,7 +53,6 @@ export default function Contact() {
         </div>
         <div style={styles.labelbox}>
           <label style={styles.labelname}>Request:</label>
-          {/* <input style={styles.bigbox} placeholder="Please Enter Request" /> */}
           <textarea style={styles.box} placeholder="Please Enter Request" ></textarea>
         </div>
         <button style={styles.submit}>Submit</button>
