@@ -7,7 +7,8 @@ const styles = {
   },
   text: {
     fontSize: '20px',
-    padding: '20px',   
+    padding: '20px',
+    color: 'white'   
   },
   textbox: {
     padding: '20px',
@@ -19,7 +20,7 @@ const styles = {
     display: 'flex', 
     flexDirection: 'column', 
     alignItems: 'center', 
-    padding: "1%"
+    padding: "2% 1% 1% 1%",
   }
 }
 

@@ -7,11 +7,11 @@ const styles = {
   header: {
     fontSize: '36px',
     marginTop: '2vw',
-    color: 'red',
+    color: 'white',
   },
   labelname: {
     fontSize: '24px',
-    color: 'red',
+    color: 'white',
   },
   labelbox: {
     display: 'flex',
@@ -24,14 +24,19 @@ const styles = {
   box: {
     fontSize: '13px',
     fontWeight: 'bolder',
-    background: 'lavender',
-    marginTop: '6px'
+    background: 'linear-gradient(to bottom right,#2c4053, rgb(38, 83, 121)',
+    marginTop: '6px',
+    color: 'white'
   },
   submit: {
     marginTop: '10px',
-    color: 'red',
-    background: 'black',
+    color: 'white',
+    background: 'linear-gradient(to bottom right,#2c4053, rgb(38, 83, 121)',
   },
+  contactMe: {
+    color:'white',
+    background: 'linear-gradient(to bottom right,#2c4053, rgb(38, 83, 121)',
+  }
 
 }
 
@@ -57,8 +62,8 @@ export default function Contact() {
         </div>
         <button style={styles.submit}>Submit</button>
       </form>
-      <div  className="mt-5 pt-2 ps-3 border w-50">
-        <h5>if you need to conatact me please email me at: </h5>
+      <div style={styles.contactMe} className="mt-5 pt-2 ps-3 border w-50">
+        <h5>If you need to contact me please email: </h5>
         <p>Leenorrell22@gmail.com</p>
       </div>
     </div>
