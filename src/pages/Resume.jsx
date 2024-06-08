@@ -26,26 +26,26 @@ export default function Resume() {
       </div>
       <div style={styles.contentBox}>
         <h2 style={styles.listHeader}>Front-End Proficiencies</h2>
-          <ul>
-            <li style={styles.listText}>HTML</li>
-            <li style={styles.listText}>CSS</li >
-            <li style={styles.listText}>JavaScript</li >
-            <li style={styles.listText}>JQuery</li >
-            <li style={styles.listText}>Responsive Design</li >
-            <li style={styles.listText}>React</li >
-            <li style={styles.listText}>Bootstrap</li >
+          <ul style={styles.listText}>
+            <li >HTML</li>
+            <li >CSS</li >
+            <li >JavaScript</li >
+            <li >JQuery</li >
+            <li >Responsive Design</li >
+            <li >React</li >
+            <li >Bootstrap</li >
           </ul>
       </div>
       <div style={styles.contentBox}>
         <h2 style={styles.listHeader}>Back-End Proficiencies</h2>
-        <ul>
-          <li style={styles.listText}>OOP</li >
-          <li style={styles.listText}>Node</li >
-          <li style={styles.listText}>Express</li >
-          <li style={styles.listText}>MySQL, Sequelize</li >
-          <li style={styles.listText}>MongoDB, Mongoose</li >
-          <li style={styles.listText}>REST</li>
-          <li style={styles.listText}>GraphQL</li>
+        <ul style={styles.listText}>
+          <li>OOP</li >
+          <li>Node</li >
+          <li >Express</li >
+          <li >MySQL, Sequelize</li >
+          <li >MongoDB, Mongoose</li >
+          <li >REST</li>
+          <li >GraphQL</li>
         </ul>
       </div>
     </div>
