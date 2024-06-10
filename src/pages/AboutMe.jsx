@@ -31,9 +31,7 @@ export default function AboutMe() {
       <div style={styles.textbox}>
       <p style={styles.text}>
         {" "}
-        Hello, My name is Lee Norrell.I live in Austin,Texas. I was working as a
-        welder back in Alabama before I decided I wanted to try something
-        different.
+        Greetings! I'm Lee Norrell, a dedicated and knowledgable coder with a passion for crafting elegant solutions to complex problems. With a solid foundation in various programming languages and a knack for understanding user needs, I specialize in developing efficient and scalable software applications. My journey in coding has been marked by a commitment to studying and improving my knowledge, ensuring that I deliver cutting-edge solutions that meet and exceed client expectations. I thrive in collaborative environments where I can leverage my skills to contribute to impactful projects. Let's collaborate and turn ideas into reality through code!
       </p>
       </div>
     </div>
