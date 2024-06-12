@@ -1,5 +1,5 @@
 import React from "react";
-import leesresume from '../assets/Resume.pdf';
+import leesresume from '../assets/resume.pdf';
 
 const styles = {
   downloadlink: {
